@@ -1,0 +1,1 @@
+java -Xmx256m -jar /opt/word-parser-gateway.jar

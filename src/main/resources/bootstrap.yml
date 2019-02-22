@@ -1,0 +1,12 @@
+---
+server:
+  port: 8020
+
+spring:
+  application:
+    name: word-parser-gateway
+  cloud:
+    config:
+      fail-fast: true
+      uri: http://157.230.27.96:8001
+      profile: word-parser-gateway
